@@ -8,12 +8,20 @@ echo_separator() {
 
 echo_block() {
     echo "--- $(date) ---"
+    
     free -h
     echo_separator
+    
     df -h
     echo_separator
+    
     uptime
+    echo_separator
+
     echo ""
 }
 
-echo_block >> "monitor.log"
+while true; do
+    echo_block >> "monitor.log"
+    sleep "$timeout_seconds"
+done
