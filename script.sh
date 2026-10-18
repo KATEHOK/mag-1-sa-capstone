@@ -1,7 +1,14 @@
 #!/usr/bin/env bash
 
-echo "--- $(date) ---" >> monitor.log
-free -h >> monitor.log
-df -h >> monitor.log
-uptime >> monitor.log
-echo "" >> monitor.log
+output_file="monitor.log"
+timeout_seconds=10
+separator="---------------------------------------"
+
+
+echo "--- $(date) ---" >> "$output_file"
+free -h >> "$output_file"
+echo "$separator" >> "$output_file"
+df -h >> "$output_file"
+echo "$separator" >> "$output_file"
+uptime >> "$output_file"
+echo "" >> "$output_file"
