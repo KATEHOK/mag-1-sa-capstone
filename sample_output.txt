@@ -1,0 +1,59 @@
+# katehok@katehok-laptop:~/inst/magistracy/sems/1/sysadmin/capstone$ ./script.sh 
+# ^C
+# katehok@katehok-laptop:~/inst/magistracy/sems/1/sysadmin/capstone$ code sample_output.txt
+# katehok@katehok-laptop:~/inst/magistracy/sems/1/sysadmin/capstone$ cat monitor.log >> sample_output.txt
+# katehok@katehok-laptop:~/inst/magistracy/sems/1/sysadmin/capstone$
+--- Mon Oct 19 01:23:05 AM MSK 2026 ---
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       8.3Gi       984Mi       159Mi       6.0Gi       6.7Gi
+Swap:          4.0Gi       440Ki       4.0Gi
+---------------------------------------
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.6G  3.2M  1.5G   1% /run
+/dev/nvme0n1p5  630G  198G  401G  33% /
+tmpfs           7.6G  112M  7.5G   2% /dev/shm
+tmpfs           5.0M   16K  5.0M   1% /run/lock
+efivarfs        128K   21K  103K  17% /sys/firmware/efi/efivars
+tmpfs           7.6G     0  7.6G   0% /run/qemu
+/dev/nvme0n1p1   96M   48M   49M  50% /boot/efi
+tmpfs           1.6G  196K  1.6G   1% /run/user/1000
+---------------------------------------
+ 01:23:05 up  8:18,  1 user,  load average: 0.62, 0.57, 0.53
+---------------------------------------
+
+--- Mon Oct 19 01:23:15 AM MSK 2026 ---
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       8.4Gi       956Mi       161Mi       6.0Gi       6.7Gi
+Swap:          4.0Gi       440Ki       4.0Gi
+---------------------------------------
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.6G  3.2M  1.5G   1% /run
+/dev/nvme0n1p5  630G  198G  401G  33% /
+tmpfs           7.6G  114M  7.5G   2% /dev/shm
+tmpfs           5.0M   16K  5.0M   1% /run/lock
+efivarfs        128K   21K  103K  17% /sys/firmware/efi/efivars
+tmpfs           7.6G     0  7.6G   0% /run/qemu
+/dev/nvme0n1p1   96M   48M   49M  50% /boot/efi
+tmpfs           1.6G  196K  1.6G   1% /run/user/1000
+---------------------------------------
+ 01:23:15 up  8:18,  1 user,  load average: 0.60, 0.57, 0.53
+---------------------------------------
+
+--- Mon Oct 19 01:23:25 AM MSK 2026 ---
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       8.2Gi       1.1Gi       160Mi       6.0Gi       6.8Gi
+Swap:          4.0Gi       440Ki       4.0Gi
+---------------------------------------
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.6G  3.2M  1.5G   1% /run
+/dev/nvme0n1p5  630G  198G  401G  33% /
+tmpfs           7.6G  114M  7.5G   2% /dev/shm
+tmpfs           5.0M   16K  5.0M   1% /run/lock
+efivarfs        128K   21K  103K  17% /sys/firmware/efi/efivars
+tmpfs           7.6G     0  7.6G   0% /run/qemu
+/dev/nvme0n1p1   96M   48M   49M  50% /boot/efi
+tmpfs           1.6G  196K  1.6G   1% /run/user/1000
+---------------------------------------
+ 01:23:25 up  8:18,  1 user,  load average: 0.51, 0.55, 0.53
+---------------------------------------
+
