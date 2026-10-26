@@ -2,8 +2,15 @@
 
 ## Структура
 
-    capstone/
+    mag-1-sa-capstone/
     ├── README.md
-    ├── script.sh             # скрипт мониторинга системных ресурсов
-    └── sample_output.txt     # пример вывода скрипта
-
+    ├── script.sh                 # Скрипт мониторинга
+    ├── sample_output.txt         # Пример результатов
+    ├── Dockerfile                # Docker-образ приложения
+    ├── .dockerignore             # Исключения контекста сборки
+    ├── .gitignore
+    └── deploy/
+        ├── nginx/
+        │   └── my-app.conf       # Reverse proxy и HTTPS
+        └── systemd/
+            └── my-app.service    # Служба управления контейнером
